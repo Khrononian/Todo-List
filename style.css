@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #182628;
+    font-size: 20px;
+}
+
+header {
+    text-align: center;
+}
+.notification {
+    width: 330px;
+    background: #AA4A44;
+    color: #800020;
+    margin: 1.5rem auto;
+    text-align: center;
+    padding: .5rem;
+    display: none;
+}
+.form-contain {
+    
+    width: 450px;         
+    margin: 0 auto;
+    text-align: center;
+}
+.user-input {
+    display: flex;
+    justify-content: center;
+}
+#user-insert {
+    width: 300px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.fas {
+    pointer-events: none;
+}
+#submit-btn {
+    border-top-left-radius: 0;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    cursor: pointer;
+    background: transparent;
+    transition: background .4s;
+}
+#submit-btn:hover {
+    background: #3B945E;
+}
+.user-list {
+    padding: .5rem;
+    border: 1px solid #3B945E;
+}
+p {
+    margin: 0;
+    display: inline-block;
+}
+.list {
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+    margin: 1.5rem auto;
+}
+.far {
+    cursor: pointer;
+    font-size: 1.3rem;
+}
+.fa-check-circle {
+    color: green;
+}
+.fa-times-circle {
+    color: red;
+}
+.clear-contain {
+    text-align: center;
+}
+.clear-btn {
+    padding: .6rem;
+    background: transparent;
+    border: 1px solid #3B945E;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background .4s;
+    margin: 1.5rem 0;
+}
+.clear-btn:hover {
+    background: #3B945E;
+}
+
+/* Js Class lists */
+
+.clear-info {
+    opacity: .5;
+    text-decoration: line-through;
+}
+.icon-auto {
+    margin: 0 .3rem;
+}

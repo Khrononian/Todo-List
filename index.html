@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>To Do List App</title>
+        <link rel="stylesheet" href="style.css" type="text/css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+    </head>
+    <body>
+        <header>
+            <h1>To Do List</h1>
+        </header>
+        <div class="notification">
+            <p>Please enter a value</p>
+        </div>
+        <div class="form-contain">
+            <form class="user">
+                <div class="user-input">
+                    <input type="text" id="user-insert" class="user-list" placeholder="Enter value...">
+                    <button type="submit" id="submit-btn" class="user-list">
+                        <i class="fas fa-plus"></i>
+                    </button>
+                </div>
+            </form>
+            <div class="contain-list list-item">
+                <div class="list">
+                    <p>File papers</p>
+                    <div>
+                        <i class="far fa-check-circle"></i>
+                        <i class="far fa-times-circle"></i>  
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="clear-contain">
+            <button class="clear-btn">Clear Items</button>
+        </div>
+    </body>
+    <script src="app.js"></script>
+</html>
+
+
